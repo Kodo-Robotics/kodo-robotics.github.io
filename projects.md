@@ -1,11 +1,9 @@
 ---
-layout: single
+layout: collection
 title: "Projects"
 permalink: /projects/
+collection: projects
+entries_layout: grid
 ---
 
-## Kodo ShelfBot
-
-Autonomous warehouse robotics platform integrating navigation and manipulation.
-
-More details coming soon.
+Engineering systems designed with precision and reliability.
