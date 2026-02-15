@@ -1,0 +1,8 @@
+title: Kodo Robotics
+description: Engineering Autonomous Robotic Systems
+theme: jekyll-theme-cayman
+
+baseurl: ""
+url: "https://kodorobotics.com"
+
+markdown: kramdown
