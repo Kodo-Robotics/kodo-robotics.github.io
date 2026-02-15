@@ -13,6 +13,7 @@ markdown: kramdown
 permalink: /:categories/:title/
 minimal_mistakes_skin: "dark"
 logo: "/assets/images/logo.png"
+favicon: "/assets/images/favicon.ico"
 
 author:
   name: "Kodo Robotics"
