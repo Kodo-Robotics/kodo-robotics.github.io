@@ -3,6 +3,7 @@ title: "AUV Magnetic Anomaly Simulation"
 excerpt: "Underwater vehicle simulation with magnetic field modeling and adaptive waypoint navigation."
 header:
     teaser: "/assets/images/projects/auv/hero.png"
+    overlay_image: "/assets/images/projects/auv/hero.png"
     overlay_filter: 0.3
 ---
 

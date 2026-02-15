@@ -3,6 +3,7 @@ title: "Modular Reconfigurable Robotics Framework"
 excerpt: "Simulation and hardware control architecture for unconventional modular manipulators."
 header:
     teaser: "/assets/images/projects/modular/hero.png"
+    overlay_image: "/assets/images/projects/modular/hero.png"
     overlay_filter: 0.3
 ---
 
