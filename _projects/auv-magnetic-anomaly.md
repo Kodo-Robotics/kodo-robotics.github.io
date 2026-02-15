@@ -1,6 +1,9 @@
 ---
 title: "AUV Magnetic Anomaly Simulation"
 excerpt: "Underwater vehicle simulation with magnetic field modeling and adaptive waypoint navigation."
+header:
+    teaser: "/assets/images/projects/auv/hero.png"
+    overlay_filter: 0.3
 ---
 
 ## Overview
@@ -32,3 +35,7 @@ The system models magnetic anomalies and integrates sensor feedback into navigat
 ## Outcome
 
 A modular underwater autonomy framework demonstrating how synthetic sensor models can drive adaptive navigation strategies.
+
+![Heatmap Data](/assets/images/projects/auv/heatmap.png)
+
+![Simulation Navigation](/assets/images/projects/auv/navigation.jpeg)

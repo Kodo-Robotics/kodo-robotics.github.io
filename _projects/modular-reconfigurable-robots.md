@@ -1,6 +1,9 @@
 ---
 title: "Modular Reconfigurable Robotics Framework"
 excerpt: "Simulation and hardware control architecture for unconventional modular manipulators."
+header:
+    teaser: "/assets/images/projects/modular/hero.png"
+    overlay_filter: 0.3
 ---
 
 ## Overview
@@ -33,3 +36,5 @@ The work focused on enabling flexible manipulator configurations through dynamic
 ## Outcome
 
 A scalable architecture for modular robotics research and rapid manipulator prototyping.
+
+![Design & Deployment](/assets/images/projects/modular/design-deployment.png)

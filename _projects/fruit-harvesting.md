@@ -1,6 +1,9 @@
 ---
 title: "Autonomous Fruit Harvesting System"
 excerpt: "Perception-driven UR10 manipulation pipeline with task planning and collision-aware execution."
+header:
+    teaser: "/assets/images/projects/fruit-harvesting/hero.png"
+    overlay_filter: 0.3
 ---
 
 ## Overview
@@ -34,3 +37,7 @@ The system integrates perception, motion planning, and task orchestration into a
 ## Outcome
 
 A full-stack manipulation system demonstrating perception-to-action autonomy in a constrained agricultural scenario.
+
+<video width="100%" autoplay loop muted playsinline>
+  <source src="/assets/videos/projects/fruit-harvesting/demo.mp4" type="video/mp4">
+</video>
