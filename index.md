@@ -1,23 +1,30 @@
 ---
-layout: default
-title: Kodo Robotics
+layout: home
+author_profile: false
+title: "コード・ロボティクス"
 ---
 
 # Kodo Robotics
 
-Engineering autonomous warehouse robotics systems.
+## Code for the future of robotics.
+
+We build software infrastructure for autonomous robotic systems.
 
 ---
 
-## What We Build
+### Core Focus Areas
 
-- Autonomous Mobile Robots (AMR)
-- 6DOF Manipulation Systems
-- ROS 2 Based Architectures
-- Simulation & System Integration
+- Autonomous Navigation (Nav2, SLAM, Localization)
+- Manipulation & Motion Planning (MoveIt 2)
+- Simulation & System Architecture (Gazebo, Isaac Sim)
+- Integrated Robotics Software Stacks
 
 ---
 
-## Flagship Project
+### Flagship Project
 
-[Kodo ShelfBot →](https://shelfbot.kodorobotics.com)
+#### Kodo ShelfBot
+
+Autonomous warehouse AMR + 6DOF manipulator platform.
+
+[Explore Project →](https://shelfbot.kodorobotics.com)

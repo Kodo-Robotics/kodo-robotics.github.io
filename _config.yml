@@ -1,8 +1,18 @@
-title: Kodo Robotics
-description: Engineering Autonomous Robotic Systems
-theme: jekyll-theme-cayman
-
-baseurl: ""
+title: "Kodo Robotics"
+description: "コード・ロボティクス — Code for the future of robotics"
 url: "https://kodorobotics.com"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
 
 markdown: kramdown
+permalink: /:categories/:title/
+minimal_mistakes_skin: "dark"
+logo: "/assets/images/logo.png"
+
+author:
+  name: "Kodo Robotics"
