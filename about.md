@@ -4,13 +4,18 @@ title: "About"
 permalink: /about/
 ---
 
-Kodo Robotics is a software-focused robotics engineering company building autonomous systems for the future of industrial automation.
+## Kodo Robotics
+
+Kodo Robotics is a robotics software company focused on building reliable autonomous systems.
 
 We specialize in:
 
 - ROS 2 system architecture
-- Motion planning and manipulation
-- Navigation and autonomy
-- Simulation-first development
+- Navigation and control pipelines
+- Manipulation software integration
+- Simulation-first development workflows
+- Reproducible robotics deployments
+
+Our work emphasizes deterministic behavior, clean abstractions, and production-grade reliability.
 
 コード・ロボティクス — Code for the future of robotics.
