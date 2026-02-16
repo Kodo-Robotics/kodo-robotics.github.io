@@ -1,0 +1,15 @@
+sakshay:
+  name        : "Sakshay Mahna"
+  bio         : "Robotics Software Engineer and founder of Kodo Robotics. Specializing in ROS2 systems, simulation, and scalable mobile and manipulation architectures."
+  avatar      : "/assets/images/sakshay.png"
+  location    : "India"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/sakshaymahna"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/SakshayMahna"
+    - label: "Kodo Robotics"
+      icon: "fas fa-robot"
+      url: "https://kodorobotics.com"
