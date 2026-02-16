@@ -34,8 +34,6 @@ But building such a system is not just about writing code. It is about designing
 
 In this article, we break down how to design a scalable AMR + Manipulator system and how to choose the right frameworks for each layer.
 
----
-
 ## Problem Definition
 
 Imagine a warehouse workflow:
@@ -51,8 +49,6 @@ Imagine a warehouse workflow:
 6. Repeat safely and consistently  
 
 To build this reliably, we need structured system design.
-
----
 
 ## Layered System Architecture
 
@@ -94,8 +90,6 @@ A scalable mobile manipulation system can be divided into clear layers:
 
 This separation keeps the system modular. Each layer can be developed, tested, and improved independently.
 
----
-
 ## Design Philosophy: Simulation First, Then Integration
 
 Architecture alone is not enough. The development process matters just as much.
@@ -118,8 +112,6 @@ Simulation allows fast iteration, safe testing, and reproducible experiments.
 ![Development Workflow Loop](/assets/images/posts/amr-manipulator-system-architecture/development-loop.png)
 *Figure 3: Development Loop for a scalable robotics system.*
 
----
-
 ### Test Modules Independently
 
 Each layer is tested separately before full integration:
@@ -138,8 +130,6 @@ Each layer is tested separately before full integration:
 
 This prevents integration problems later.
 
----
-
 ### Incremental Integration
 
 Instead of integrating everything at once, we proceed step by step:
@@ -152,8 +142,6 @@ Instead of integrating everything at once, we proceed step by step:
 
 Only after simulation and integration tests are stable do we move to hardware validation.
 
----
-
 ### Hardware Testing
 
 Real world testing focuses on:
@@ -164,8 +152,6 @@ Real world testing focuses on:
 - Real world noise  
 
 Simulation builds confidence. Hardware testing validates assumptions.
-
----
 
 ## Framework Comparison by Architecture Layer
 
@@ -180,8 +166,6 @@ Framework selection should support the layered architecture — not fight it.
 | Deployment | Linux / RT | GPU platforms | Autocode + ROS integration |
 
 Now let's look at each layer clearly.
-
----
 
 ### Navigation
 
@@ -202,8 +186,6 @@ MATLAB can prototype planners but does not provide a complete industrial navigat
 
 **Practical choice:** Nav2 for most industrial AMR systems.
 
----
-
 ### Manipulation
 
 For arm motion planning, **MoveIt2** remains the most flexible and integration-friendly option.
@@ -219,8 +201,6 @@ Isaac provides strong GPU-based workflows, especially for perception heavy pipel
 MATLAB/Simulink is excellent for prototyping kinematics and trajectory logic, but typically integrates with ROS for execution.
 
 **Practical choice:** MoveIt2 as the backbone, optionally supported by MATLAB for algorithm design.
-
----
 
 ### Simulation
 
@@ -245,8 +225,6 @@ Choose based on what you are validating:
 - Sensor realism → Isaac  
 - Control validation → Simulink  
 
----
-
 ### Control Design
 
 For many industrial systems, `ros2_control` is sufficient.
@@ -259,8 +237,6 @@ However, when:
 MATLAB/Simulink provides strong structured workflows.
 
 Isaac mainly accelerates compute-heavy tasks rather than replacing control design frameworks.
-
----
 
 ### Deployment
 
@@ -280,8 +256,6 @@ Deployment depends on system constraints.
 
 For model based workflows, MATLAB shines during deployment integration.
 
----
-
 ## Recommended Hybrid Approach
 
 A layered architecture allows mixing tools intelligently:
@@ -294,8 +268,6 @@ A layered architecture allows mixing tools intelligently:
 
 The goal is not to choose one ecosystem, but to design a clean, modular system.
 
----
-
 ## Conclusion
 
 Building an AMR + Manipulator system is an architecture challenge.
@@ -303,8 +275,6 @@ Building an AMR + Manipulator system is an architecture challenge.
 Clear layering, disciplined testing, and simulation-first development are what make systems scalable and reliable.
 
 At Kodo Robotics, we focus on structured system design, because in robotics, integration quality determines success.
-
----
 
 ## Let's Build Reliable Robotics Systems
 
