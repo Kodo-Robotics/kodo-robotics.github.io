@@ -1,6 +1,6 @@
 ---
 title: "Designing a Scalable AMR + Manipulator Architecture"
-excerpt: "Learn how to design a scalable AMR + robotic arm architecture for warehouse automation. A practical systems-level guide covering ROS2, MoveIt2, Nav2, MATLAB, and simulation-first development."
+excerpt: "A practical guide to designing a scalable AMR + robotic arm architecture for warehouse automation, covering ROS2, MoveIt2, Nav2, MATLAB, and simulation-first development."
 date: 2026-02-16
 permalink: /amr-manipulator-architecture/
 categories:
@@ -44,8 +44,8 @@ Imagine a warehouse workflow:
 1. Navigate to a storage aisle  
 2. Identify the correct bin  
 3. Dock precisely in front of it  
-4. Pick the object using a 6 DOF arm  
-5. Deliver it to a drop off station  
+4. Pick the object using a 6-DOF arm  
+5. Deliver it to a drop-off station  
 6. Repeat safely and consistently  
 
 To build this reliably, we need structured system design.
@@ -59,7 +59,7 @@ A scalable mobile manipulation system can be divided into clear layers:
 
 ### 1. Hardware Layer
 - Mobile base  
-- LiDAR and RGBD camera  
+- LiDAR and RGB-D camera  
 - 6-DOF robotic arm  
 - Gripper  
 
@@ -122,7 +122,7 @@ Each layer is tested separately before full integration:
 
 **Manipulation**
 - IK validation  
-- Collision free trajectories  
+- Collision-free trajectories  
 
 **Perception**
 - Object detection accuracy  
@@ -144,12 +144,12 @@ Only after simulation and integration tests are stable do we move to hardware va
 
 ### Hardware Testing
 
-Real world testing focuses on:
+Real-world testing focuses on:
 
 - Sensor latency  
 - Mechanical tolerances  
 - Calibration drift  
-- Real world noise  
+- Real-world noise  
 
 Simulation builds confidence. Hardware testing validates assumptions.
 
@@ -180,7 +180,7 @@ It provides:
 
 It is modular and widely adopted.
 
-Isaac offers acceleration and perception-focused advantages, but Nav2 provides stronger out of the box industrial navigation features.
+Isaac offers acceleration and perception-focused advantages, but Nav2 provides stronger out-of-the-box industrial navigation features.
 
 MATLAB can prototype planners but does not provide a complete industrial navigation stack by default.
 
@@ -192,9 +192,11 @@ For arm motion planning, **MoveIt2** remains the most flexible and integration-f
 
 It offers:
 - Collision checking  
-- OMPL planning  
-- IK solvers  
+- OMPL-based motion planning  
+- Inverse kinematics (IK) solvers  
 - Planning scene management  
+- Pick-and-place framework with grasp execution support  
+- Integration with ros2_control for hardware execution  
 
 Isaac provides strong GPU-based workflows, especially for perception heavy pipelines.
 
@@ -230,7 +232,7 @@ Choose based on what you are validating:
 For many industrial systems, `ros2_control` is sufficient.
 
 However, when:
-- Advanced model based control is required  
+- Advanced model-based control is required  
 - Safety validation is important  
 - Autocode generation is needed  
 
@@ -254,7 +256,7 @@ Deployment depends on system constraints.
 - Automatic C++ generation  
 - Clear traceability from design to runtime  
 
-For model based workflows, MATLAB shines during deployment integration.
+For model-based workflows, MATLAB shines during deployment integration.
 
 ## Recommended Hybrid Approach
 
@@ -278,8 +280,8 @@ At Kodo Robotics, we focus on structured system design, because in robotics, int
 
 ## Let's Build Reliable Robotics Systems
 
-If you are designing a warehouse automation system or exploring mobile manipulation for industrial use, architecture decisions made early will define long term success.
+If you are designing a warehouse automation system or exploring mobile manipulation for industrial use, architecture decisions made early will define long-term success.
 
-Whether you are prototyping a new platform or scaling an existing deployment, a modular, simulation first approach reduces risk and accelerates development.
+Whether you are prototyping a new platform or scaling an existing deployment, a modular, simulation-first approach reduces risk and accelerates development.
 
 Feel free to connect or reach out if you would like to discuss system architecture, mobile manipulation, or AMR platform design.
