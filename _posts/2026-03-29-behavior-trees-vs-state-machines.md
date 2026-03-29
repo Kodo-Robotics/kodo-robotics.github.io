@@ -44,7 +44,7 @@ Both are useful, but they are not equally suitable for every robotics problem.
 
 A common mistake is to treat them as interchangeable. From project work, we have found that they solve different orchestration problems and lead to very different system complexity as a project grows.
 
-This article is not meant as a general introduction to both concepts. It is a practical guide based on the kind of robotics workflows where this decision actually matters.
+This article is meant to be a practical guide based on the kind of robotics workflows where this decision actually matters.
 
 The comparison here comes from two representative examples:
 
