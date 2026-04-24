@@ -1,6 +1,7 @@
 ---
 title: "AUV Magnetic Anomaly Simulation"
 excerpt: "Underwater vehicle simulation with magnetic field modeling and adaptive waypoint navigation."
+outcome: "Full underwater vehicle sim with adaptive navigation validated entirely in software before any water testing."
 header:
     teaser: "/assets/images/projects/auv/hero.png"
     overlay_image: "/assets/images/projects/auv/hero.png"

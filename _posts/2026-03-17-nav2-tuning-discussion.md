@@ -1,6 +1,7 @@
 ---
 title: "Just Another Automation Tool for Nav2? Not Really."
 excerpt: "Why Nav2 tuning is a systems problem, not an automation problem — and how structured benchmarks, YAML-driven experiments, and parameter design improve navigation performance."
+audience_tag: "teams tuning mobile robot navigation"
 date: 2026-03-17
 permalink: /nav2-tuning-systems-approach/
 categories:

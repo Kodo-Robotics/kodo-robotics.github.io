@@ -1,6 +1,7 @@
 ---
 title: "Modular Reconfigurable Robotics Framework"
 excerpt: "Simulation and hardware control architecture for unconventional modular manipulators."
+outcome: "A unified control architecture that works across radically different robot morphologies — sim and hardware."
 header:
     teaser: "/assets/images/projects/modular/hero.png"
     overlay_image: "/assets/images/projects/modular/hero.png"

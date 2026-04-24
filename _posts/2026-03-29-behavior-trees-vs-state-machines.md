@@ -1,6 +1,7 @@
 ---
 title: "Behavior Trees vs State Machines in Robotics: Lessons from Real Robot Workflows"
 excerpt: "A practical guide based on real robotics workflows, comparing Behavior Trees and State Machines through agriculture and patrol examples, with lessons on where each approach works best."
+audience_tag: "robotics teams choosing control architecture"
 date: 2026-03-29
 permalink: /behavior-trees-vs-state-machines/
 categories:

@@ -32,7 +32,14 @@ defaults:
       layout: single
       author_profile: false
 
+atom_feed:
+  hide: true
+
 footer:
   links:
-    - label: "Contact"
+    - label: "Book a call"
+      icon: "fas fa-calendar-alt"
+      url: "https://calendly.com/kodorobotics/30min"
+    - label: "Email"
+      icon: "fas fa-envelope"
       url: "mailto:kodorobotics@gmail.com"

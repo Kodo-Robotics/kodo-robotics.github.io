@@ -10,3 +10,6 @@ main:
 
   - title: "About"
     url: /about/
+
+  - title: "Book a call"
+    url: "https://calendly.com/kodorobotics/30min"

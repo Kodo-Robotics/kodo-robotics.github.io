@@ -1,6 +1,7 @@
 ---
 title: "From Simulation to Reality: Building Reliable Robotic Sensing with AgileX Piper Arm"
 excerpt: "A simulation-to-real case study on making waypoint-based robotic sensing reliable on an AgileX Piper arm through control redesign, joint-limit validation, and defensive recovery logic."
+outcome: "Waypoint-based sensing went from intermittent failure to repeatable execution across 200+ sim validation cycles."
 header:
     teaser: "/assets/images/projects/reliable-sensing/hero.png"
     overlay_image: "/assets/images/projects/reliable-sensing/hero.png"

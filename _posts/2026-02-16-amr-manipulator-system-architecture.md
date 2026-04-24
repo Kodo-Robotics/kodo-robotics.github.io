@@ -1,6 +1,7 @@
 ---
 title: "Designing a Scalable AMR + Manipulator Architecture"
 excerpt: "A practical guide to designing a scalable AMR + robotic arm architecture for warehouse automation, covering ROS2, MoveIt2, Nav2, MATLAB, and simulation-first development."
+audience_tag: "teams designing AMR + manipulator systems for warehouse automation"
 date: 2026-02-16
 permalink: /amr-manipulator-architecture/
 categories:

@@ -1,6 +1,7 @@
 ---
 title: "Autonomous Fruit Harvesting System"
 excerpt: "Perception-driven UR10 manipulation pipeline with task planning and collision-aware execution."
+outcome: "A UR10 manipulation pipeline that plans, detects, and executes picks with collision awareness — no manual parameter tuning per fruit."
 header:
     teaser: "/assets/images/projects/fruit-harvesting/hero.png"
     overlay_image: "/assets/images/projects/fruit-harvesting/hero.png"
