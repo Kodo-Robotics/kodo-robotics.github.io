@@ -29,8 +29,8 @@ We're based in Hyderabad and work with teams globally.
 
 <div class="cta-section" id="book">
   <h2>Work with us</h2>
-  <p>We work with teams building production robotic systems — startups, hardware companies, and R&amp;D labs. If that's you, book a technical scoping call below.</p>
-  <p class="cta-sub">We'll look at where your system is stuck, whether we're a fit, and what the path to reliable deployment looks like.</p>
-  <a href="https://calendly.com/kodorobotics/30min" class="btn-primary">Book a free 30-min call</a>
+  <p>We work with teams building production robotic systems — startups, hardware companies, and R&amp;D labs. If that's you, tell us about your project below and we'll be in touch.</p>
+  <p class="cta-sub">We'll review your situation and follow up with next steps if we're a fit.</p>
+  <a href="https://forms.gle/LADwun8N6qUuXpwh7" class="btn-primary" target="_blank" rel="noopener">Tell us about your project</a>
   <p style="margin-top: 1rem;"><a href="mailto:kodorobotics@gmail.com">kodorobotics@gmail.com</a></p>
 </div>

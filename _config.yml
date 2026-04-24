@@ -37,9 +37,9 @@ atom_feed:
 
 footer:
   links:
-    - label: "Book a call"
-      icon: "fas fa-calendar-alt"
-      url: "https://calendly.com/kodorobotics/30min"
+    - label: "Get in touch"
+      icon: "fas fa-paper-plane"
+      url: "https://forms.gle/LADwun8N6qUuXpwh7"
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:kodorobotics@gmail.com"

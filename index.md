@@ -8,7 +8,7 @@ classes: wide
   <h1 class="hero-headline">Your ROS&nbsp;2 robot, production-ready.</h1>
   <p class="hero-subheadline">Most robotics teams get stuck between prototype and reliable deployment. We specialise in the gap — using simulation-first development so your system is validated before it ever touches hardware.</p>
   <div class="hero-ctas">
-    <a href="#book" class="btn-primary">Book a free 30-min call</a>
+    <a href="#book" class="btn-primary">Tell us about your project</a>
     <a href="/projects/" class="btn-secondary">See our work →</a>
   </div>
 </section>
@@ -107,8 +107,8 @@ classes: wide
 
 <section class="cta-section" id="book">
   <h2>Ready to move from prototype to production?</h2>
-  <p>We work with teams building production robotic systems — startups, hardware companies, and R&amp;D labs. If that's you, book a technical scoping call below.</p>
-  <p class="cta-sub">We'll look at where your system is stuck, whether we're a fit, and what the path to reliable deployment looks like.</p>
-  <a href="https://calendly.com/kodorobotics/30min" class="btn-primary">Book a call</a>
+  <p>We work with teams building production robotic systems — startups, hardware companies, and R&amp;D labs. If that's you, tell us about your project below and we'll be in touch.</p>
+  <p class="cta-sub">We'll review your situation and follow up with next steps if we're a fit.</p>
+  <a href="https://forms.gle/LADwun8N6qUuXpwh7" class="btn-primary" target="_blank" rel="noopener">Tell us about your project</a>
   <p class="cta-secondary">Or email <a href="mailto:kodorobotics@gmail.com">kodorobotics@gmail.com</a></p>
 </section>
