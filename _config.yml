@@ -32,6 +32,12 @@ defaults:
       layout: single
       author_profile: false
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-GHPB11M47Y"
+    anonymize_ip: false
+
 atom_feed:
   hide: true
 
