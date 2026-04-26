@@ -279,10 +279,10 @@ Clear layering, disciplined testing, and simulation-first development are what m
 
 At Kodo Robotics, we focus on structured system design, because in robotics, integration quality determines success.
 
-## Let's Build Reliable Robotics Systems
-
-If you are designing a warehouse automation system or exploring mobile manipulation for industrial use, architecture decisions made early will define long-term success.
-
-Whether you are prototyping a new platform or scaling an existing deployment, a modular, simulation-first approach reduces risk and accelerates development.
-
-Feel free to connect or reach out if you would like to discuss system architecture, mobile manipulation, or AMR platform design.
+<div class="cta-section">
+  <h2>Struggling to get Nav2, MoveIt2, and task orchestration to work together reliably?</h2>
+  <p>Most teams spend months debugging integration failures that a layered architecture would have prevented. If you are navigating the same complexity — getting your mobile base, arm, and task planner to behave consistently from warehouse simulation to hardware deployment — we have been there.</p>
+  <p class="cta-sub">Whether you are designing from scratch or untangling an existing architecture, we can help you build a modular, simulation-first foundation that survives real-world deployment.</p>
+  <a href="https://forms.gle/LADwun8N6qUuXpwh7" class="btn-primary" target="_blank" rel="noopener">Tell us about your project</a>
+  <p class="cta-secondary">Or email <a href="mailto:kodorobotics@gmail.com">kodorobotics@gmail.com</a></p>
+</div>

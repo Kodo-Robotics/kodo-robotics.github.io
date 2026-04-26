@@ -41,3 +41,11 @@ A modular underwater autonomy framework demonstrating how synthetic sensor model
 ![Heatmap Data](/assets/images/projects/auv/heatmap.png)
 
 ![Simulation Navigation](/assets/images/projects/auv/navigation.jpeg)
+
+<div class="cta-section">
+  <h2>Building autonomous systems that need to be right before the first real-world run?</h2>
+  <p>Underwater vehicles, hazardous environments, remote deployments — these are systems where you cannot afford to discover failures during actual operation. This project was about validating adaptive, sensor-driven autonomy entirely in simulation so that nothing critical is discovered in the water for the first time.</p>
+  <p class="cta-sub">If you are building an autonomous system that operates in difficult or high-stakes environments and needs thorough simulation validation before deployment, we can help.</p>
+  <a href="https://forms.gle/LADwun8N6qUuXpwh7" class="btn-primary" target="_blank" rel="noopener">Tell us about your project</a>
+  <p class="cta-secondary">Or email <a href="mailto:kodorobotics@gmail.com">kodorobotics@gmail.com</a></p>
+</div>

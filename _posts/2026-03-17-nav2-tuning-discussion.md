@@ -348,7 +348,10 @@ Automation can help, but it is not the solution.
 
 A structured approach based on experiments, metrics, and system-level understanding leads to more reliable and scalable navigation performance.
 
-## Discussion
-- How do you currently tune Nav2?
-- Do you rely on visual inspection or quantitative metrics?
-- Would a standardized benchmarking framework improve your workflow?
+<div class="cta-section">
+  <h2>Still stuck in the edit-run-observe loop?</h2>
+  <p>If Nav2 tuning for your robot feels more like guesswork than engineering — no reproducible benchmarks, inconsistent results, behavior that changes with every YAML tweak — that is the systems problem this article describes. Visual inspection only gets you so far.</p>
+  <p class="cta-sub">We help teams build structured navigation workflows: correct robot modeling, meaningful benchmarks, and parameter changes you can actually compare. If you are tuning Nav2 for an Ackermann platform, MPPI, or a custom setup and are not making progress, let's talk.</p>
+  <a href="https://forms.gle/LADwun8N6qUuXpwh7" class="btn-primary" target="_blank" rel="noopener">Tell us about your project</a>
+  <p class="cta-secondary">Or email <a href="mailto:kodorobotics@gmail.com">kodorobotics@gmail.com</a></p>
+</div>

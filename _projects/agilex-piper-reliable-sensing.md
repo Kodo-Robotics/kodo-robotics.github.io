@@ -262,3 +262,11 @@ This project showed how a straightforward sensing task becomes a meaningful engi
 By redesigning the control strategy, validating real joint behavior, and adding a defensive recovery layer, we turned a brittle simulation-success story into a more reliable robotic sensing system on the AgileX Piper arm.
 
 This is the kind of work Kodo Robotics focuses on: helping teams bridge simulation-to-real deployment, harden manipulation and sensing workflows, and build robotic systems that keep working outside ideal conditions.
+
+<div class="cta-section">
+  <h2>Your robot works in simulation but fails on hardware?</h2>
+  <p>IK failures, undocumented joint limits, thermal shutdowns under real payload — these are not edge cases. They are the standard gap between a simulation-validated system and one that actually deploys. If your manipulation or sensing pipeline is stuck here, those issues rarely resolve themselves without targeted hardware and control work.</p>
+  <p class="cta-sub">We help teams close that gap: control redesign, hardware validation, and recovery logic that makes your system behave reliably outside ideal conditions.</p>
+  <a href="https://forms.gle/LADwun8N6qUuXpwh7" class="btn-primary" target="_blank" rel="noopener">Tell us about your project</a>
+  <p class="cta-secondary">Or email <a href="mailto:kodorobotics@gmail.com">kodorobotics@gmail.com</a></p>
+</div>

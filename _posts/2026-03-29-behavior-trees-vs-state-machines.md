@@ -526,3 +526,11 @@ Behavior Trees become more valuable when the robot must continuously evaluate co
 In practice, the most useful question is usually not "Which one is better?" It is "Is this robot mainly progressing through stages, or is it continuously selecting among competing behaviors?"
 
 That distinction tends to make the right choice much clearer.
+
+<div class="cta-section">
+  <h2>Is your state machine becoming a web of transitions?</h2>
+  <p>A clean sequential workflow can quietly turn into an unmanageable graph of cross-linked states as requirements grow. If your robot's task logic is getting harder to extend, debug, or explain to the team — or if you are not confident which architecture fits your next system — this is exactly the decision worth getting right early.</p>
+  <p class="cta-sub">We help robotics teams design task orchestration that stays maintainable as complexity grows. Whether you are starting fresh or refactoring existing logic, we can help you make the right call for your specific workflow.</p>
+  <a href="https://forms.gle/LADwun8N6qUuXpwh7" class="btn-primary" target="_blank" rel="noopener">Tell us about your project</a>
+  <p class="cta-secondary">Or email <a href="mailto:kodorobotics@gmail.com">kodorobotics@gmail.com</a></p>
+</div>
