@@ -1,34 +1,29 @@
 ---
-layout: home
+layout: splash
 author_profile: false
 title: "Kodo Robotics"
----
-
-# Kodo Robotics
-
-## Building software infrastructure and systems for robotics.
-
-Kodo Robotics develops tools and systems that help engineers build, simulate, validate, and deploy autonomous robots. The work spans ROS 2 architecture, simulation environments, autonomy stacks, and developer tooling.
-
-[Explore projects](/projects/) · [Read engineering notes](/blog/)
-
+excerpt: "Building software infrastructure and systems for robotics — ROS 2 architecture, simulation environments, autonomy stacks, and developer tooling."
+header:
+  overlay_color: "linear-gradient(160deg, #00adb5 0%, #252a34 65%)"
+  actions:
+    - label: "Explore Projects"
+      url: "/projects/"
+    - label: "Read Engineering Notes"
+      url: "/blog/"
+feature_row:
+  - title: "Robotics Software"
+    excerpt: "Modular software architecture for robot behavior, sensing, planning, and hardware interfaces."
+  - title: "ROS 2 Systems"
+    excerpt: "Composable ROS 2 systems, from package boundaries and launch configuration to navigation and manipulation."
+  - title: "Simulation & Validation"
+    excerpt: "Simulation environments and repeatable validation loops for testing assumptions before and alongside hardware experiments."
+  - title: "Navigation, Manipulation & Developer Tools"
+    excerpt: "Autonomy pipelines and practical tooling for reproducible builds, debugging, and faster engineering iteration."
 ---
 
 ## Engineering Focus
 
-### Robotics Software
-Modular software architecture for robot behavior, sensing, planning, and hardware interfaces.
-
-### ROS 2 Systems
-Composable ROS 2 systems, from package boundaries and launch configuration to navigation and manipulation.
-
-### Simulation & Validation
-Simulation environments and repeatable validation loops for testing assumptions before and alongside hardware experiments.
-
-### Navigation, Manipulation & Developer Tools
-Autonomy pipelines and practical tooling for reproducible builds, debugging, and faster engineering iteration.
-
----
+{% include feature_row %}
 
 ## Engineering Principles
 
@@ -38,30 +33,25 @@ Autonomy pipelines and practical tooling for reproducible builds, debugging, and
 - Developer-friendly workflows
 - Open work, experiments, and technical writing
 
----
-
 ## Engineering Case Studies
 
-{% for project in site.projects %}
-### [{{ project.title }}]({{ project.url | relative_url }})
-{% if project.status %}*{{ project.status }}*{% endif %}
+<div class="entries-grid">
+  {% for post in site.projects %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
 
-{{ project.excerpt | strip_html }}
-
-{% endfor %}
-[See all projects](/projects/)
-
----
+[See all projects](/projects/){: .btn .btn--light-outline}
 
 ## Engineering Notes
 
-{% for post in site.posts limit:3 %}
-### [{{ post.title }}]({{ post.url | relative_url }})
+<div class="entries-list">
+  {% for post in site.posts limit:3 %}
+    {% include archive-single.html type="list" %}
+  {% endfor %}
+</div>
 
-{{ post.excerpt | strip_html }}
-
-{% endfor %}
-[All engineering notes](/blog/)
+[All engineering notes](/blog/){: .btn .btn--light-outline}
 
 ---
 

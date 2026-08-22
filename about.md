@@ -7,15 +7,9 @@ classes: wide
 
 ## About
 
-Kodo Robotics is an independent robotics engineering initiative by Sakshay Mahna, a Robotics Software Engineer working on robotics software, simulation, and developer tooling.
+Kodo Robotics is an independent robotics engineering initiative by Sakshay Mahna, a Robotics Software Engineer working on robotics software, simulation, and developer tooling. The work focuses on the infrastructure behind autonomous robots: modular ROS 2 systems, simulation environments, validation workflows, and tools that make engineering work easier to reproduce and maintain.
 
-The work focuses on the infrastructure behind autonomous robots: modular ROS 2 systems, simulation environments, validation workflows, and tools that make engineering work easier to reproduce and maintain.
-
-Kodo approaches robotics as a systems problem. Useful software has clear boundaries, observable behavior, and a path from simulation to hardware validation. This means treating developer experience, testability, and failure handling as engineering concerns rather than afterthoughts.
-
-Open-source work, technical writing, and experimental projects are part of that practice: a way to share methods, document tradeoffs, and build reusable foundations for future robots.
-
----
+Kodo approaches robotics as a systems problem. Useful software has clear boundaries, observable behavior, and a path from simulation to hardware validation — treating developer experience, testability, and failure handling as engineering concerns rather than afterthoughts. Open-source work, technical writing, and experimental projects are part of that practice: a way to share methods, document tradeoffs, and build reusable foundations for future robots.
 
 ## Engineering focus
 
