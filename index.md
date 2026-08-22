@@ -35,13 +35,13 @@ feature_row:
 
 ## Engineering Case Studies
 
-<div class="entries-grid">
+<div class="entries-horizontal">
   {% for post in site.projects %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single.html type="horizontal" %}
   {% endfor %}
 </div>
 
-[See all projects](/projects/){: .btn .btn--light-outline}
+[See all projects](/projects/){: .btn .btn--light-outline .section-btn}
 
 ## Engineering Notes
 
@@ -51,7 +51,7 @@ feature_row:
   {% endfor %}
 </div>
 
-[All engineering notes](/blog/){: .btn .btn--light-outline}
+[All engineering notes](/blog/){: .btn .btn--light-outline .section-btn}
 
 ---
 

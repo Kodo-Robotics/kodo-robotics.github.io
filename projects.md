@@ -3,7 +3,7 @@ layout: collection
 title: "Projects"
 permalink: /projects/
 collection: projects
-entries_layout: grid
+entries_layout: horizontal
 ---
 
 Engineering case studies, research systems, and experiments in robotics software, simulation, and autonomy.
