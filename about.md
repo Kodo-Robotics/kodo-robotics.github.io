@@ -5,32 +5,31 @@ permalink: /about/
 classes: wide
 ---
 
-## About Kodo Robotics
+## About
 
-Kodo Robotics is a robotics software consultancy that helps teams build reliable autonomous systems — from early simulation through to production hardware deployment.
+Kodo Robotics is an independent robotics engineering initiative by Sakshay Mahna, a Robotics Software Engineer working on robotics software, simulation, and developer tooling.
 
-We work with companies that are serious about getting their robot to production. That means simulation-first development, clean ROS 2 architecture, and systems that behave deterministically when it matters.
+The work focuses on the infrastructure behind autonomous robots: modular ROS 2 systems, simulation environments, validation workflows, and tools that make engineering work easier to reproduce and maintain.
 
-Our expertise covers the full stack: navigation (Nav2, SLAM), manipulation (MoveIt 2, RRT, grasp pipelines), simulation (Isaac Sim, Gazebo, Unreal), and deployment (Docker, CI/CD, Jetson, NUC).
+Kodo approaches robotics as a systems problem. Useful software has clear boundaries, observable behavior, and a path from simulation to hardware validation. This means treating developer experience, testability, and failure handling as engineering concerns rather than afterthoughts.
 
-We're based in Hyderabad and work with teams globally.
-
----
-
-## Specialisms
-
-- ROS 2 system architecture and navigation stacks (Nav2, SLAM)
-- Manipulation software (MoveIt 2, trajectory generation, grasp pipelines)
-- Simulation and validation (Isaac Sim, Gazebo, Unreal Engine)
-- Reproducible deployment (Docker, CI/CD, NVIDIA Jetson, Intel NUC)
-- Simulation-to-real gap engineering and hardware debugging
+Open-source work, technical writing, and experimental projects are part of that practice: a way to share methods, document tradeoffs, and build reusable foundations for future robots.
 
 ---
 
-<div class="cta-section" id="book">
-  <h2>Work with us</h2>
-  <p>We work with teams building production robotic systems — startups, hardware companies, and R&amp;D labs. If that's you, tell us about your project below and we'll be in touch.</p>
-  <p class="cta-sub">We'll review your situation and follow up with next steps if we're a fit.</p>
-  <a href="https://forms.gle/LADwun8N6qUuXpwh7" class="btn-primary" target="_blank" rel="noopener">Tell us about your project</a>
-  <p style="margin-top: 1rem;"><a href="mailto:kodorobotics@gmail.com">kodorobotics@gmail.com</a></p>
+## Engineering focus
+
+- Robotics software architecture and ROS 2 systems
+- Autonomous navigation and manipulation with Nav2 and MoveIt 2
+- Simulation and validation with Gazebo and Isaac Sim
+- Developer tooling, reproducible environments, and debugging workflows
+- Simulation-to-real validation and hardware-software integration
+
+---
+
+<div class="cta-section">
+  <h2>Follow the work</h2>
+  <p>Explore projects, engineering notes, and open-source work from Kodo Robotics.</p>
+  <a href="https://github.com/Kodo-Robotics" class="btn-primary" target="_blank" rel="noopener">Kodo Robotics on GitHub</a>
+  <p class="cta-secondary"><a href="https://linkedin.com/in/sakshaymahna" target="_blank" rel="noopener">Sakshay Mahna on LinkedIn</a> · <a href="https://www.youtube.com/@RoboticswithSakshay" target="_blank" rel="noopener">Robotics with Sakshay</a></p>
 </div>

@@ -2,6 +2,7 @@
 title: "From Simulation to Reality: Building Reliable Robotic Sensing with AgileX Piper Arm"
 excerpt: "A simulation-to-real case study on making waypoint-based robotic sensing reliable on an AgileX Piper arm through control redesign, joint-limit validation, and defensive recovery logic."
 outcome: "Waypoint-based sensing went from intermittent failure to repeatable execution across 200+ sim validation cycles."
+status: "Case study"
 header:
     teaser: "/assets/images/projects/reliable-sensing/hero.png"
     overlay_image: "/assets/images/projects/reliable-sensing/hero.png"
@@ -253,7 +254,7 @@ Teams building inspection systems, manipulation platforms, or autonomous sensing
 
 These are not edge cases. They are standard real-world robotics challenges, and solving them requires both software and hardware awareness.
 
-For companies moving from prototype to pilot deployment, this is often where engineering effort has the highest leverage. Small corrections in control architecture, hardware assumptions, and recovery behavior can determine whether a system remains a lab demo or becomes a reliable operational tool.
+This is where engineering effort has high leverage. Small corrections in control architecture, hardware assumptions, and recovery behavior can determine whether a system remains a lab demo or becomes a reliable operational tool.
 
 ## Closing Note
 
@@ -261,12 +262,4 @@ This project showed how a straightforward sensing task becomes a meaningful engi
 
 By redesigning the control strategy, validating real joint behavior, and adding a defensive recovery layer, we turned a brittle simulation-success story into a more reliable robotic sensing system on the AgileX Piper arm.
 
-This is the kind of work Kodo Robotics focuses on: helping teams bridge simulation-to-real deployment, harden manipulation and sensing workflows, and build robotic systems that keep working outside ideal conditions.
-
-<div class="cta-section">
-  <h2>Your robot works in simulation but fails on hardware?</h2>
-  <p>IK failures, undocumented joint limits, thermal shutdowns under real payload — these are not edge cases. They are the standard gap between a simulation-validated system and one that actually deploys. If your manipulation or sensing pipeline is stuck here, those issues rarely resolve themselves without targeted hardware and control work.</p>
-  <p class="cta-sub">We help teams close that gap: control redesign, hardware validation, and recovery logic that makes your system behave reliably outside ideal conditions.</p>
-  <a href="https://forms.gle/LADwun8N6qUuXpwh7" class="btn-primary" target="_blank" rel="noopener">Tell us about your project</a>
-  <p class="cta-secondary">Or email <a href="mailto:kodorobotics@gmail.com">kodorobotics@gmail.com</a></p>
-</div>
+The resulting workflow is a useful reference for simulation-to-real sensing systems where control assumptions, hardware limits, and recovery behavior all need explicit validation.

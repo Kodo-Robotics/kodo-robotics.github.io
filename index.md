@@ -5,68 +5,72 @@ classes: wide
 ---
 
 <section class="hero-section">
-  <h1 class="hero-headline">Your ROS&nbsp;2 robot, production-ready.</h1>
-  <p class="hero-subheadline">Most robotics teams get stuck between prototype and reliable deployment. We specialise in the gap — using simulation-first development so your system is validated before it ever touches hardware.</p>
+  <h1 class="hero-headline">Building software infrastructure and systems for robotics.</h1>
+  <p class="hero-subheadline">Kodo Robotics develops tools and systems that help engineers build, simulate, validate, and deploy autonomous robots. The work spans ROS 2 architecture, simulation environments, autonomy stacks, and developer tooling.</p>
   <div class="hero-ctas">
-    <a href="#book" class="btn-primary">Tell us about your project</a>
-    <a href="/projects/" class="btn-secondary">See our work →</a>
+    <a href="/projects/" class="btn-primary">Explore projects</a>
+    <a href="/blog/" class="btn-secondary">Read engineering notes →</a>
   </div>
 </section>
 
 <div class="credibility-bar">
-  <p>4 production systems built · ROS 2 / Nav2 / MoveIt 2 · Isaac Sim · Gazebo · AgileX · UR10 · Jetson deployment</p>
+  <p>ROS 2 · Nav2 · MoveIt 2 · Gazebo · Isaac Sim · robot simulation · hardware validation</p>
 </div>
 
 <section class="services-section">
-  <h2 class="section-header">What we do</h2>
+  <h2 class="section-header">Engineering focus</h2>
   <div class="services-grid">
     <div class="service-card">
-      <h3>Autonomous Navigation</h3>
-      <p>Your robot finds its way reliably — in warehouses, outdoors, or complex environments. We build and tune the Nav2 stack that gets it there without constant intervention.</p>
+      <h3>Robotics Software</h3>
+      <p>Modular software architecture for robot behavior, sensing, planning, and hardware interfaces that remains understandable as systems grow.</p>
     </div>
     <div class="service-card">
-      <h3>Manipulation Software</h3>
-      <p>Your robot arm picks, places, and executes tasks precisely. We integrate MoveIt 2, handle collision planning, and make sure it works in the real world, not just in demos.</p>
+      <h3>ROS 2 Systems</h3>
+      <p>Composable ROS 2 systems, from package boundaries and launch configuration to navigation, manipulation, and deployment workflows.</p>
     </div>
     <div class="service-card">
       <h3>Simulation &amp; Validation</h3>
-      <p>Your system is tested to failure before you spend a day on hardware. We build high-fidelity simulation environments in Isaac Sim, Gazebo, or Unreal so problems surface in software, not on the floor.</p>
+      <p>Simulation environments and repeatable validation loops for testing assumptions before and alongside real-hardware experiments.</p>
     </div>
     <div class="service-card">
-      <h3>Production Deployment</h3>
-      <p>Your robot ships. Dockerized ROS 2 environments, CI/CD pipelines, and Jetson/NUC deployments that your team can maintain and scale.</p>
+      <h3>Navigation &amp; Manipulation</h3>
+      <p>Autonomy pipelines that connect perception, planning, controls, and task execution in constrained, changing environments.</p>
+    </div>
+    <div class="service-card">
+      <h3>Developer Tools</h3>
+      <p>Practical tooling for reproducible builds, experiment setup, debugging, and faster iteration across robotics software projects.</p>
     </div>
   </div>
 </section>
 
 <section class="philosophy-section">
-  <h2 class="section-header">How we work</h2>
+  <h2 class="section-header">Engineering principles</h2>
   <div class="philosophy-grid">
     <div class="philosophy-item">
       <h4>Simulation-first</h4>
-      <p>We validate in sim before touching hardware.</p>
+      <p>Use simulation to explore, test, and narrow uncertainty before hardware trials.</p>
     </div>
     <div class="philosophy-item">
-      <h4>Deterministic</h4>
-      <p>No surprises in production.</p>
+      <h4>Reliable systems</h4>
+      <p>Make failure modes visible and recovery behavior explicit.</p>
     </div>
     <div class="philosophy-item">
-      <h4>Clean architecture</h4>
-      <p>Code your team can own and extend.</p>
+      <h4>Modular design</h4>
+      <p>Keep interfaces clear so components can be tested and extended independently.</p>
     </div>
     <div class="philosophy-item">
-      <h4>Reproducible builds</h4>
-      <p>Same result every time, everywhere.</p>
+      <h4>Developer experience</h4>
+      <p>Build tools and workflows that reduce friction during iteration and debugging.</p>
     </div>
     <div class="philosophy-item">
-      <h4>Systems thinking</h4>
-      <p>We fix root causes, not symptoms.</p>
+      <h4>Open work</h4>
+      <p>Share useful tools, lessons, and experiments with the robotics community.</p>
     </div>
   </div>
 </section>
 
 <section class="projects-section">
-  <h2 class="section-header">Recent work</h2>
+  <h2 class="section-header">Engineering case studies</h2>
   <div class="homepage-projects-grid">
     {% for project in site.projects %}
     <div class="homepage-project-card">
@@ -76,6 +80,9 @@ classes: wide
       </a>
       {% endif %}
       <div class="project-card-body">
+        {% if project.status %}
+        <span class="project-status">{{ project.status }}</span>
+        {% endif %}
         {% if project.outcome %}
         <p class="project-outcome">{{ project.outcome }}</p>
         {% endif %}
@@ -91,7 +98,7 @@ classes: wide
 </section>
 
 <section class="blog-section">
-  <h2 class="section-header">Recent writing</h2>
+  <h2 class="section-header">Engineering notes</h2>
   <div class="homepage-blog-list">
     {% for post in site.posts limit:3 %}
     <div class="homepage-blog-item">
@@ -105,10 +112,9 @@ classes: wide
   </div>
 </section>
 
-<section class="cta-section" id="book">
-  <h2>Ready to move from prototype to production?</h2>
-  <p>We work with teams building production robotic systems — startups, hardware companies, and R&amp;D labs. If that's you, tell us about your project below and we'll be in touch.</p>
-  <p class="cta-sub">We'll review your situation and follow up with next steps if we're a fit.</p>
-  <a href="https://forms.gle/LADwun8N6qUuXpwh7" class="btn-primary" target="_blank" rel="noopener">Tell us about your project</a>
-  <p class="cta-secondary">Or email <a href="mailto:kodorobotics@gmail.com">kodorobotics@gmail.com</a></p>
+<section class="cta-section">
+  <h2>Built by Sakshay Mahna</h2>
+  <p>Kodo Robotics is an independent robotics engineering initiative by Sakshay Mahna, a Robotics Software Engineer working on robotics software, simulation, and developer tooling.</p>
+  <a href="https://github.com/Kodo-Robotics" class="btn-primary" target="_blank" rel="noopener">Follow on GitHub</a>
+  <p class="cta-secondary"><a href="https://linkedin.com/in/sakshaymahna" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://www.youtube.com/@RoboticswithSakshay" target="_blank" rel="noopener">Robotics with Sakshay on YouTube</a></p>
 </section>

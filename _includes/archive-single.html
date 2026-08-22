@@ -25,6 +25,9 @@
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %}
+    {% if post.status %}
+      <p class="archive__item-status"><small>{{ post.status }}</small></p>
+    {% endif %}
     {% if post.outcome %}
       <p class="archive__item-outcome">{{ post.outcome }}</p>
     {% endif %}

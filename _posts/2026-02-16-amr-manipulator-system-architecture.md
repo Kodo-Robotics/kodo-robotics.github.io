@@ -277,12 +277,4 @@ Building an AMR + Manipulator system is an architecture challenge.
 
 Clear layering, disciplined testing, and simulation-first development are what make systems scalable and reliable.
 
-At Kodo Robotics, we focus on structured system design, because in robotics, integration quality determines success.
-
-<div class="cta-section">
-  <h2>Struggling to get Nav2, MoveIt2, and task orchestration to work together reliably?</h2>
-  <p>Most teams spend months debugging integration failures that a layered architecture would have prevented. If you are navigating the same complexity — getting your mobile base, arm, and task planner to behave consistently from warehouse simulation to hardware deployment — we have been there.</p>
-  <p class="cta-sub">Whether you are designing from scratch or untangling an existing architecture, we can help you build a modular, simulation-first foundation that survives real-world deployment.</p>
-  <a href="https://forms.gle/LADwun8N6qUuXpwh7" class="btn-primary" target="_blank" rel="noopener">Tell us about your project</a>
-  <p class="cta-secondary">Or email <a href="mailto:kodorobotics@gmail.com">kodorobotics@gmail.com</a></p>
-</div>
+Integration quality determines whether individual robotics components become a coherent system. A layered, simulation-first architecture makes those integration boundaries easier to reason about and test.

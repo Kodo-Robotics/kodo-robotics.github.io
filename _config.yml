@@ -1,5 +1,5 @@
 title: "Kodo Robotics"
-description: "コード・ロボティクス — Code for the future of robotics"
+description: "Software infrastructure, simulation systems, and developer tools for robotics."
 url: "https://kodorobotics.com"
 baseurl: ""
 
@@ -17,7 +17,7 @@ logo: "/assets/images/logo.png"
 favicon: "/assets/images/favicon.ico"
 
 author:
-  name: "Kodo Robotics"
+  name: "Sakshay Mahna"
 
 collections:
   projects:
@@ -43,9 +43,15 @@ atom_feed:
 
 footer:
   links:
-    - label: "Get in touch"
-      icon: "fas fa-paper-plane"
-      url: "https://forms.gle/LADwun8N6qUuXpwh7"
+    - label: "Kodo Robotics GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/Kodo-Robotics"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/sakshaymahna"
+    - label: "Robotics with Sakshay"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/@RoboticswithSakshay"
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:kodorobotics@gmail.com"

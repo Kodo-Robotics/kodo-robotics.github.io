@@ -6,4 +6,4 @@ collection: posts
 entries_layout: list
 ---
 
-Technical writing on robotics software architecture, autonomy, and system design.
+Technical notes, design decisions, and lessons learned from work on robotics software, simulation, autonomy, and developer tooling.

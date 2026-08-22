@@ -13,11 +13,9 @@
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
-            {%- unless link.url contains "forms.gle" -%}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              <a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"{% if link.url contains '://' %} target="_blank" rel="noopener"{% endif %}{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
-            {%- endunless -%}
           {%- endfor -%}
         </ul>
         {% if site.search == true %}
@@ -28,7 +26,6 @@
           </svg>
         </button>
         {% endif %}
-        <a href="https://forms.gle/LADwun8N6qUuXpwh7" class="nav__cta-btn" target="_blank" rel="noopener">Get in touch</a>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>

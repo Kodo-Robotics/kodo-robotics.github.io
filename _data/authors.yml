@@ -4,6 +4,9 @@ sakshay:
   avatar      : "/assets/images/sakshay.png"
   location    : "India"
   links:
+    - label: "Kodo Robotics GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/Kodo-Robotics"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/sakshaymahna"
@@ -13,3 +16,6 @@ sakshay:
     - label: "Kodo Robotics"
       icon: "fas fa-robot"
       url: "https://kodorobotics.com"
+    - label: "Robotics with Sakshay"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/@RoboticswithSakshay"
