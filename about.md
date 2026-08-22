@@ -27,9 +27,4 @@ Open-source work, technical writing, and experimental projects are part of that 
 
 ---
 
-<div class="cta-section">
-  <h2>Follow the work</h2>
-  <p>Explore projects, engineering notes, and open-source work from Kodo Robotics.</p>
-  <a href="https://github.com/Kodo-Robotics" class="btn-primary" target="_blank" rel="noopener">Kodo Robotics on GitHub</a>
-  <p class="cta-secondary"><a href="https://linkedin.com/in/sakshaymahna" target="_blank" rel="noopener">Sakshay Mahna on LinkedIn</a> · <a href="https://www.youtube.com/@RoboticswithSakshay" target="_blank" rel="noopener">Robotics with Sakshay</a></p>
-</div>
+[Kodo Robotics on GitHub](https://github.com/Kodo-Robotics) · [Sakshay Mahna on LinkedIn](https://linkedin.com/in/sakshaymahna) · [Robotics with Sakshay](https://www.youtube.com/@RoboticswithSakshay)
